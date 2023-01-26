@@ -1,4 +1,4 @@
-import 'package:equatable/equatable.dart';
+import 'package:equatable/equatable.dart'; // для того, чтобы можно было сравнивать по значению. Изначально в Dart сравнения идут по ссылка. Нужно переопределить сравнение == и сравнение hash. Это пакет делает это
 
 class PersonEntity extends Equatable {
   final int id;
