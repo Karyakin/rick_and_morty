@@ -5,3 +5,7 @@ abstract class Failure extends Equatable {
   List<Object?> get props => [];
 }
 // описываются сбои
+
+class ServerFailure extends Failure {}
+
+class CashFailure extends Failure {}
